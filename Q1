@@ -3,13 +3,18 @@ using namespace std;
 
 int main()
 {
-    double fahrenheit, celsius;
-    cout << "Enter Fehrenheit value\n";
-    cin >> fahrenheit;
+    double area, volume, radius, height;
+    cout << "Enter hieght\n";
+    cin >> height;
+    cout << "Enter radius\n";
+    cin >> radius;
 
-    celsius = 5/9 * (fahrenheit - 32);
+    const double pi = 3.141592;
 
-    cout << "Celsiua is = "<< celsius;
+    area = 2*pi*radius*height+2*pi*radius*radius;
+    cout << "The area is :" << area << endl;
 
+    volume = pi*radius*radius*height;
+    cout << "The volume is :" << volume;
 
 }
