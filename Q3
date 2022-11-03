@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double salary = 10000;
+    double netSalary, taxPayable;
+
+    taxPayable = (0.25*10000);
+    cout << "Tax payble is :" << taxPayable << endl;
+
+    netSalary = 10000 - taxPayable;
+    cout << "Net salary is :" << netSalary;
+
+
+}
